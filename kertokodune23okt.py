@@ -7,5 +7,5 @@ while x<100:
 	print "",
 	
 	if x%10==9:
-		print "{0:02d}".format(x)+ "\n"
+		print "\n"
 		x=x+1
