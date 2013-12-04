@@ -23,9 +23,9 @@ elif tekst == str(tekst.upper()) and any(c.isdigit() for c in tekst):
 elif tekst == str(tekst.upper()):
 	print "Tekstis on suured t2hed ja numbrid puuduvad."
 elif any(c.isdigit() for c in tekst):
-	print "Tekstis on suured ja v2ikesed t2hed ning numbrid."
+	print "Tekstis on suured ja v2iksed t2hed ning numbrid."
 else:
-	print "Suur-väiketähed ja numbriteta"
+	print "Tektstis on suured ja v2iksed t2hed ja numbrid puuduvad."
 
 print
 
